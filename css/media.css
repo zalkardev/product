@@ -8,13 +8,43 @@
     .hero img{
         width: 50%;
     }
+    .content-block {
+        margin: 0 2px;
+    }
+
 }
 @media (max-width: 1024px) {
+    #block {
+        padding-right: 528px;
+        padding-left: 9px;
+    }
+    .content-blocks {
+        flex-wrap: wrap;
+    }
+    .block {
+        padding-left: 87px;
+    }
+    .header-nav a {
+        display: none;
+    }
 }
 @media (max-width: 992px) {
+    .block-title h1 {
+        font-size: 30px;
+    }
+    .block-title button {
+         margin: 0;
+}
 
 }
 @media (max-width: 768px) {
+    .table-blocks {
+        flex-wrap: wrap;
+    }
+    .star-blocks {
+        flex-wrap: wrap;
+    }
+
 }
 @media (max-width: 576px) {
 
